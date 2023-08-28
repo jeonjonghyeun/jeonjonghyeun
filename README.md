@@ -1,3 +1,0 @@
-# jjhrepo
-# jeonjonghyeun
-# jeonjonghyeun
