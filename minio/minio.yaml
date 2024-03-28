@@ -1,0 +1,335 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-1
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK1
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-2
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK2
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-3
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK3
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-4
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK4
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-5
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK5
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-6
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK6
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-7
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK7
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-8
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK8
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-9
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK9
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-10
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK10
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-11
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK11
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-12
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK12
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-13
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK13
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-14
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK14
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-15
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK15
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-16
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK16
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-17
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK17
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-18
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK18
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-19
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK19
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-20
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK20
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-21
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK21
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-22
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK22
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-23
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK23
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: minio-disk-24
+spec:
+  capacity:
+    storage: 1.8Ti
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: minio-storage
+  hostPath:
+    path: /DISK24

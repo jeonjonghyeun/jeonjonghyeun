@@ -1,0 +1,195 @@
+apiVersion: cstor.openebs.io/v1
+kind: CStorPoolCluster
+metadata:
+ name: cstor-disk-pool
+ namespace: openebs
+spec:
+ pools:
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode01"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-1f9a5629f7e01c82d1c47b31d8282877"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode01"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-458d500e66e7702ca027c0c3d9a113bc"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode01"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-70d2bb87f6de8d056da864b0c426f894"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode01"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-803b9d0ffc61cdbbe56815116aa5a34a"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode01"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-9b435239c06d758c7929f9812ff3ca8b"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode01"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-aca5905fcb86e6371356db4de805a840"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode01"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-c7f873c2f0e3d61dc61a45c5762cd283"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+
+  
+ 
+
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode01"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-c8fdd353e63cbde2ac4d19e089a6099f"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+
+
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode02"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-1df771fc8949c74a13e5c5fd1745c200"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+    
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode02"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-2f9dc5c4c0d6e24af45fae240538b69f"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode02"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-3ec6759a0a476a469cb28997fe7c49a5"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode02"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-64e0eaa1b5718cae8b42d20be3a33345"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode02"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-67dc26d427053c6e1b21c4876a94271a"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode02"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-82be07efeaa7329a508eb445d444b2f8"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode02"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-8a4c047388c06647c1c71a13154bbfd2"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode02"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-8ab2d54c595157a1f27edfe33645c73a"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode02"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-fbbc92fdcfd0f2f6e273b87158602cbc"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode03"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-0e5e1d6ef4b7736aa1324352ac2b0cdc"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode03"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-49473e624fef8bd3c1048bbb427df4f0"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode03"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-683f56310900ec62a2d8b0746ccf27f8"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode03"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-7b780ff97c8779b75c99c5f275f42d41"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode03"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-a589323cf736c00501ee3b7fefd74f30"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode03"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-c38f56ce2b52f5af43b28575b78273a3"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode03"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-f1b5216761e864c934f49840c01ae805"
+     poolConfig:
+       dataRaidGroupType: "stripe"
+   - nodeSelector:
+       kubernetes.io/hostname: "worknode03"
+     dataRaidGroups:
+       - blockDevices:
+           - blockDeviceName: "blockdevice-fd28efe41baa723a65335305482f53f5"
+     poolConfig:
+       dataRaidGroupType: "stripe"

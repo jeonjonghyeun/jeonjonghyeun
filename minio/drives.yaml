@@ -1,0 +1,10 @@
+version: v1
+nodes:
+    - name: master
+      drives:
+        - id: 252:16$ud8mwCjPTH8147TysmiQ2GGLpffqUht6bz7NtHqReJo=
+          name: vdb
+          size: 536870912
+          make: ""
+          select: "yes"
+   
